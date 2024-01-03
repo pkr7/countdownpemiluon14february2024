@@ -44,6 +44,7 @@ body {
 	-webkit-text-size-adjust: 100%;
 }
 
+
 section { overflow: hidden; }
 ::selection { background: #161a1b; color: #fff; }
 ::-moz-selection { background: #161a1b; color: #fff; }
@@ -479,6 +480,18 @@ h2 {
 		right: 0;
 		top: 0;
 	}
+
+	@media (max-width: 700px) {
+		/* Perangkat seluler */
+		.background {
+		  background: url(../images/backgroundhp1.png) no-repeat 50% 100%;
+		  background-size: cover;
+		  position: absolute;
+		  width: 100%;
+		  left: 0;
+		  top: 0;
+		}
+
 }
 
 /* Tablet Portrait */
@@ -645,6 +658,8 @@ h2 {
 	.depth-1.flake4 { 
 		display: none;
 	}
+
+	.background
 }
 
 @media all and (min-width: 1200px) {
@@ -756,6 +771,7 @@ h2 {
 	.depth-1.flake4 { 
 		display: none;
 	}
+	
 }
 
 @media all and (min-width: 1400px) {
