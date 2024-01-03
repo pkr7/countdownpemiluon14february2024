@@ -402,23 +402,21 @@ h2 {
 		right: 0;
 		top: 0;
 	}
-
-	.background{
-
-	}
-}
-@media (max-width: 325px) {
-	/* Perangkat seluler */
-.background {
-	  background: url(../images/backgroundhp3.png) no-repeat 50% 100%;
-	  background-size: cover;
-	  position: absolute;
-	  width: 100%;
-	  left: 0;
-	  top: 0;
+		/* Perangkat seluler */
+	.background {
+		  background: url(../images/backgroundhp3.png) no-repeat 50% 100%;
+		  background-size: cover;
+		  position: absolute;
+		  width: 100%;
+		  left: 0;
+		  top: 0;
+		}
+	
 	}
 
 }
+
+
 
 
 /* Landscape Phone */
